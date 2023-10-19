@@ -1,0 +1,82 @@
+.footer-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  user-select: none;
+  height: 100px; /* Adjust the height as needed */
+  padding: 10px; /* Add padding as needed */
+  background-color: #035141; /* Change the background color */
+  color: white; /* Change the text color */
+  border-top: 1px solid #bfbdbd; /* Add a top border */
+}
+
+.show-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  color: white;
+  background-color: #3894b8;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Add transitions */
+}
+
+.show-chat:hover {
+  background-color: #035141; /* Change the hover background color */
+  transform: scale(1.1); /* Add a hover animation */
+}
+
+.chat-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 200px;
+  background-color: #e9ecee;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 10px #a1a0a0;
+  transition: opacity 0.3s, transform 0.3s; /* Add transitions */
+}
+
+.chat-form:hover {
+  opacity: 1; /* Change the hover opacity */
+  transform: scale(1.05); /* Add a hover animation */
+}
+
+.response {
+  color: rgb(139, 137, 137);
+  text-align: center; /* Center the text */
+}
+
+.text {
+  color: #035141;
+  text-align: center; /* Center the text */
+}
+
+.hide-chat-form {
+  display: none;
+}
+
+.message-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-form input {
+  width: 100%;
+  height: 24px;
+  color: #035141;
+  padding-left: 10px;
+  font-size: large;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.send-message i {
+  color: #035141;
+  cursor: pointer;
+}
